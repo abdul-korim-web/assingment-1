@@ -3,10 +3,11 @@
   padding: 0;
 }
 /* common desing */
-body {
+/* body {
+    width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-}
+} */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -254,4 +255,47 @@ body {
     font-size:16px ;
     color: #627382;
   }
+}
+/* footer section desing  */
+footer{
+  background-color: #001931;
+  padding: 120px 120px 30px 120px;
+}
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-image{
+  width: 139px;
+  height: 60px;
+
+}
+.footer-link{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  & h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+  & .social-icon-div{
+    display: flex;
+    gap: 16px;
+
+  }
+  & .social-icon-div i{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+.footer-copywrite{
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 16px;
+  margin-top: 110px;
 }
